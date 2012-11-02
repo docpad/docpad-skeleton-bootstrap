@@ -1,10 +1,16 @@
 # [Twitter Bootstrap](http://twitter.github.com/bootstrap/) skeleton for [DocPad](https://github.com/bevry/docpad)
 Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.
 
+Note: The docpad-less compiler breaks when using the `@import` directive - to change Bootstrap's LESS, you need to compile manually.
 
 ## Getting Started
 
 1. [Install DocPad](https://github.com/bevry/docpad)
+
+1. Install the LESS compiler (if you want to change Bootstrap's LESS)
+	``` bash
+	npm install -g less jshint recess uglify-js
+	```
 
 1. Clone the project and run the server
 
@@ -18,6 +24,12 @@ Simple and flexible HTML, CSS, and Javascript for popular user interface compone
 1. [Open http://localhost:9778/](http://localhost:9778/)
 
 1. Start hacking away by modifying the `src` directory
+
+1. To re-compile bootstrap's LESS, run from the root directory:
+
+	```bash
+	lessc src/style/style.less src/files/style.css^C
+	```
 
 
 ## License
