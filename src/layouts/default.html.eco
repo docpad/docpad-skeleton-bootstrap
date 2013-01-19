@@ -21,10 +21,6 @@
 	<!-- Mobile viewport optimized: h5bp.com/viewport -->
 	<meta name="viewport" content="width=device-width" />
 
-	<!-- DocPad Meta Information -->
-	<%- @getBlock('meta').toHTML() %>
-
-
 	<!-- Icons -->
     <link rel="shortcut icon" href="ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
