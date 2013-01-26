@@ -65,6 +65,6 @@
 	</div><!-- /container -->
 
 	<!-- Scripts -->
-	<%- @getBlock('scripts').add(["/vendor/jquery.js","/vendor/log.js","/vendor/modernizr.js","/scripts/script.js"]).toHTML() %>
+	<%- @getBlock('scripts').add(["/vendor/jquery.js","/vendor/twitter-bootstrap/js/bootstrap.min.js","/scripts/script.js"]).toHTML() %>
 </body>
 </html>
