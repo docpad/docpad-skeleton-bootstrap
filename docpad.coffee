@@ -85,25 +85,28 @@ docpadConfig = {
 	# These are special collections that our website makes available to us
 
 	collections:
-		# For instance, this one will fetch in all documents that have pageOrder set within their meta data
 		pages: (database) ->
 			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
-		# This one, will fetch in all documents that have the tag "post" specified in their meta data
 		posts: (database) ->
-			database.findAllLive({tags: $has: ['post']}, [date:-1])
+			database.findAllLive({tags:$has:'post'}, [date:-1])
 
 
 	# =================================
 	# Plugins
 
 	plugins:
-		repocloner:
-			repos: [{
-				name: 'Twitter Bootstrap'
-				path: 'src/files/twitter-bootstrap'
-				url: 'https://github.com/twitter/bootstrap.git'
-			}]
+		downloader:
+			downloads: [
+				{
+					name: 'Twitter Bootstrap'
+					path: 'src/files/vendor/twitter-bootstrap'
+					url: 'https://nodeload.github.com/twitter/bootstrap/zip/master'
+					gzip: true
+					tar: true
+					tarclean: true
+				}
+			]
 
 
 	# =================================

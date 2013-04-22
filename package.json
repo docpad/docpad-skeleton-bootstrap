@@ -30,6 +30,7 @@
 	},
 	"dependencies": {
 		"docpad": "6.x",
+		"docpad-plugin-downloader": "2.x",
 		"docpad-plugin-cleanurls": "2.x",
 		"docpad-plugin-coffeescript": "2.x",
 		"docpad-plugin-eco": "2.x",
