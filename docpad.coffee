@@ -39,6 +39,20 @@ docpadConfig = {
 			# The website author's email
 			email: "your@email.com"
 
+			# Styles
+			styles: [
+				"/vendor/twitter-bootstrap/css/bootstrap.css",
+				"/vendor/twitter-bootstrap/css/bootstrap-responsive.css",
+				"/styles/style.css"
+			]
+
+			# Scripts
+			scripts: [
+				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js",
+				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js",
+				"/scripts/script.js"
+			]
+
 
 
 		# -----------------------------

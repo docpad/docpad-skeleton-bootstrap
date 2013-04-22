@@ -34,7 +34,7 @@
 	<![endif]-->
 
 	<!-- Styles -->
-	<%- @getBlock('styles').add(["/vendor/twitter-bootstrap/css/bootstrap.css","/vendor/twitter-bootstrap/css/bootstrap-responsive.css","/styles/style.css"]).toHTML() %>
+	<%- @getBlock('styles').add(@site.styles).toHTML() %>
 </head>
 <body>
 	<!-- Markup -->
@@ -65,6 +65,6 @@
 	</div><!-- /container -->
 
 	<!-- Scripts -->
-	<%- @getBlock('scripts').add(["/vendor/jquery.js","/vendor/log.js","/vendor/modernizr.js","/scripts/script.js"]).toHTML() %>
+	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 </body>
 </html>
