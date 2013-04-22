@@ -41,8 +41,7 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"/vendor/twitter-bootstrap/css/bootstrap.css",
-				"/vendor/twitter-bootstrap/css/bootstrap-responsive.css",
+				"/styles/twitter-bootstrap.css"
 				"/styles/style.css"
 			]
 
@@ -101,10 +100,8 @@ docpadConfig = {
 				{
 					name: 'Twitter Bootstrap'
 					path: 'src/files/vendor/twitter-bootstrap'
-					url: 'https://nodeload.github.com/twitter/bootstrap/zip/master'
-					gzip: true
-					tar: true
-					tarclean: true
+					url: 'https://nodeload.github.com/twitter/bootstrap/tar.gz/master'
+					tarExtractClean: true
 				}
 			]
 
