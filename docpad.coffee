@@ -81,6 +81,18 @@ docpadConfig = {
 
 
 	# =================================
+	# Plugins
+
+	plugins:
+		repocloner:
+			repos: [{
+				name: 'Twitter Bootstrap'
+				path: 'src/files/twitter-bootstrap'
+				url: 'https://github.com/twitter/bootstrap.git'
+			}]
+
+
+	# =================================
 	# DocPad Events
 
 	# Here we can define handlers for events that DocPad fires
