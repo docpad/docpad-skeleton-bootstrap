@@ -20,6 +20,11 @@ Simple and flexible HTML, CSS, and Javascript for popular user interface compone
 1. Start hacking away by modifying the `src` directory
 
 
+## I'm getting EMFILE errors
+
+[See here for the reason why and the solution](http://docpad.org/docs/troubleshoot#i-m-getting-emfile-too-many-open-files)
+
+
 ## License
 
 This skeleton is made ["public domain"](http://en.wikipedia.org/wiki/Public_domain) using the [Creative Commons Zero](http://creativecommons.org/publicdomain/zero/1.0/), as such before you publish your website you should place your desired license here and within the `LICENSE.md` file.
