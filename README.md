@@ -37,6 +37,6 @@ If you are wanting to close-source your website, we'd suggest using the followin
 
 	Copyright [Your Name](http://your.website). All rights reserved.
 
-Other included things such as themes and libraries are likely already licensed by their own invidual licenses, so be sure to respect their licenses too.
+Other included things such as themes and libraries are likely already licensed by their own individual licenses, so be sure to respect their licenses too.
 
 Thanks, the DocPad team loves you.
