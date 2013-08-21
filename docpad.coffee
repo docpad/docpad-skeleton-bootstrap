@@ -47,7 +47,7 @@ docpadConfig = {
 
 			# Scripts
 			scripts: [
-				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js",
+				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js",
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js",
 				"/scripts/script.js"
 			]
@@ -100,7 +100,7 @@ docpadConfig = {
 				{
 					name: 'Twitter Bootstrap'
 					path: 'src/files/vendor/twitter-bootstrap'
-					url: 'https://nodeload.github.com/twitter/bootstrap/tar.gz/master'
+					url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
 					tarExtractClean: true
 				}
 			]
