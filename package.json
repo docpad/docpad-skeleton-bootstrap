@@ -1,7 +1,7 @@
 {
   "name": "twitter-bootstrap.docpad",
   "version": "0.10.0",
-  "description": "Twitter Bootstrap skeleton for DocPad. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
+  "description": "Bootstrap skeleton for DocPad. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
   "homepage": "https://github.com/bevry/twitter-bootstrap.docpad",
   "keywords": [
     "docpad-skeleton",
