@@ -28,20 +28,20 @@
     "npm": "1.2"
   },
   "dependencies": {
-    "docpad": "~6.63.3",
+    "docpad": "~6.74.0",
+    "docpad-plugin-cleanurls": "~2.7.0",
+    "docpad-plugin-coffeescript": "~2.5.0",
     "docpad-plugin-downloader": "~2.1.4",
-    "docpad-plugin-cleanurls": "~2.6.2",
-    "docpad-plugin-coffeescript": "~2.2.3",
-    "docpad-plugin-eco": "~2.0.3",
+    "docpad-plugin-eco": "~2.1.0",
     "docpad-plugin-less": "~2.4.1",
-    "docpad-plugin-marked": "~2.2.0",
-    "docpad-plugin-partials": "~2.8.1",
+    "docpad-plugin-marked": "~2.3.0",
+    "docpad-plugin-partials": "~2.9.2",
     "docpad-plugin-related": "~2.2.2",
-    "docpad-plugin-stylus": "~2.5.0",
-    "docpad-plugin-text": "~2.3.2"
+    "docpad-plugin-stylus": "~2.9.0",
+    "docpad-plugin-text": "~2.3.3"
   },
   "devDependencies": {
-    "docpad-plugin-livereload": "~2.5.6"
+    "docpad-plugin-livereload": "~2.6.1"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
