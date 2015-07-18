@@ -100,7 +100,7 @@ docpadConfig = {
 			downloads: [
 				{
 					name: 'Bootstrap'
-					path: 'src/files/vendor/twitter-bootstrap'
+					path: 'src/static/vendor/twitter-bootstrap'
 					url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
 					tarExtractClean: true
 				}
